@@ -13,9 +13,9 @@ class Graph(Common)
  |      strict=False, suppress_disconnected=False, attribute=value, ...)
  |
  |  graph_name:
- |      the graph's name
+ |      the graph's namesss
  |  graph_type:
- |      can be 'graph' or 'digraph'ss
+ |      can be 'graph' or 'digraph'
  |  suppress_disconnected:
  |      defaults to False, which will remove from the
  |      graph any disconnected nodes.
