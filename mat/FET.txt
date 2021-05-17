@@ -1,0 +1,6 @@
+Ferro-titanium
+2
+FE
+0.25
+TI
+0.75
