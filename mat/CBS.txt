@@ -1,0 +1,10 @@
+Small Capacitor Bank
+4
+LI
+6
+BE
+6
+BCO
+20
+PG
+60

@@ -1,0 +1,8 @@
+Ceramic-tungsten Fabric
+3
+WAL
+2
+SI
+1
+O
+1

@@ -1,0 +1,8 @@
+Borosilicate
+3
+BOR
+0.25
+SI
+0.25
+AL
+1

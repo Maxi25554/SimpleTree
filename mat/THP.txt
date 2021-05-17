@@ -1,0 +1,8 @@
+Basic Thermal Protection Material
+3
+BE
+0.5
+CF
+0.5
+HE
+0.25

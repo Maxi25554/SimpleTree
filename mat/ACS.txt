@@ -1,0 +1,10 @@
+Automated Cooling System
+4
+WAI
+1
+SAR
+1
+FC
+1
+THF
+10

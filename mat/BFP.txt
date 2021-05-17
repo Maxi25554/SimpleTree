@@ -1,0 +1,8 @@
+Basic Fuel Pump
+3
+SFK
+1
+PG
+50
+THP
+5

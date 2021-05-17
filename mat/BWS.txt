@@ -1,0 +1,8 @@
+Basic Workstation
+3
+MB
+1
+DCM
+1
+HD
+1

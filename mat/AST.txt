@@ -1,0 +1,6 @@
+Alpha-Stabilized Titanium
+2
+AL
+0.25
+TI
+0.75

@@ -1,0 +1,10 @@
+Large Capacitor Bank
+4
+LI
+12
+BE
+12
+HCC
+60
+PG
+150
