@@ -1,0 +1,10 @@
+Printed Circuit Board
+4
+SWF
+2
+BCO
+1
+PE
+12
+BGO
+0.2

@@ -1,0 +1,10 @@
+Basic Mainframe
+4
+TPU
+1
+FAN
+1
+MB
+1
+DCL
+1

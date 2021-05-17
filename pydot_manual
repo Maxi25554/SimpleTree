@@ -1,0 +1,287 @@
+[Command: python -u 'C:\Users\Maxim N\Documents\MadeGames\MaxiTree\PTPScript.py']
+Help on class Graph in module pydot:
+
+class Graph(Common)
+ |  Graph(graph_name='G', obj_dict=None, graph_type='digraph', strict=False, suppress_disconnected=False, simplify=False, **attrs)
+ |
+ |  Class representing a graph in Graphviz's dot language.
+ |
+ |  This class implements the methods to work on a representation
+ |  of a graph in Graphviz's dot language.
+ |
+ |  graph(  graph_name='G', graph_type='digraph',
+ |      strict=False, suppress_disconnected=False, attribute=value, ...)
+ |
+ |  graph_name:
+ |      the graph's name
+ |  graph_type:
+ |      can be 'graph' or 'digraph'ss
+ |  suppress_disconnected:
+ |      defaults to False, which will remove from the
+ |      graph any disconnected nodes.
+ |  simplify:
+ |      if True it will avoid displaying equal edges, i.e.
+ |      only one edge between two nodes. removing the
+ |      duplicated ones.
+ |
+ |  All the attributes defined in the Graphviz dot language should
+ |  be supported.
+ |
+ |  Attributes can be set through the dynamically generated methods:
+ |
+ |   set_[attribute name], i.e. set_size, set_fontname
+ |
+ |  or using the instance's attributes:
+ |
+ |   Graph.obj_dict['attributes'][attribute name], i.e.
+ |
+ |      graph_instance.obj_dict['attributes']['label']
+ |      graph_instance.obj_dict['attributes']['fontname']
+ |
+ |  Method resolution order:
+ |      Graph
+ |      Common
+ |      builtins.object
+ |
+ |  Methods defined here:
+ |
+ |  __init__(self, graph_name='G', obj_dict=None, graph_type='digraph', strict=False, suppress_disconnected=False, simplify=False, **attrs)
+ |      Initialize self.  See help(type(self)) for accurate signature.
+ |
+ |  __str__(self)
+ |      Return str(self).
+ |
+ |  add_edge(self, graph_edge)
+ |      Adds an edge object to the graph.
+ |
+ |      It takes a edge object as its only argument and returns
+ |      None.
+ |
+ |  add_node(self, graph_node)
+ |      Adds a node object to the graph.
+ |
+ |      It takes a node object as its only argument and returns
+ |      None.
+ |
+ |  add_subgraph(self, sgraph)
+ |      Adds an subgraph object to the graph.
+ |
+ |      It takes a subgraph object as its only argument and returns
+ |      None.
+ |
+ |  del_edge(self, src_or_list, dst=None, index=None)
+ |      Delete an edge from the graph.
+ |
+ |      Given an edge's (source, destination) node names all
+ |      matching edges(s) will be deleted if 'index' is not
+ |      specified or set to None.
+ |      If there are several matching edges and 'index' is
+ |      given, only the edge in that position will be deleted.
+ |
+ |      'index' should be an integer specifying the position
+ |      of the edge to delete. If index is larger than the
+ |      number of matching edges, no action is taken.
+ |
+ |      If edges are deleted it returns True. If no action
+ |      is taken it returns False.
+ |
+ |  del_node(self, name, index=None)
+ |      Delete a node from the graph.
+ |
+ |      Given a node's name all node(s) with that same name
+ |      will be deleted if 'index' is not specified or set
+ |      to None.
+ |      If there are several nodes with that same name and
+ |      'index' is given, only the node in that position
+ |      will be deleted.
+ |
+ |      'index' should be an integer specifying the position
+ |      of the node to delete. If index is larger than the
+ |      number of nodes with that name, no action is taken.
+ |
+ |      If nodes are deleted it returns True. If no action
+ |      is taken it returns False.
+ |
+ |  get_edge(self, src_or_list, dst=None)
+ |      Retrieved an edge from the graph.
+ |
+ |      Given an edge's source and destination the corresponding
+ |      Edge instance(s) will be returned.
+ |
+ |      If one or more edges exist with that source and destination
+ |      a list of Edge instances is returned.
+ |      An empty list is returned otherwise.
+ |
+ |  get_edge_defaults(self, **attrs)
+ |
+ |  get_edge_list(self)
+ |      Get the list of Edge instances.
+ |
+ |      This method returns the list of Edge instances
+ |      composing the graph.
+ |
+ |  get_edges(self)
+ |
+ |  get_graph_defaults(self, **attrs)
+ |
+ |  get_graph_type(self)
+ |
+ |  get_name(self)
+ |      Get the graph's name.
+ |
+ |  get_next_sequence_number(self)
+ |
+ |  get_node(self, name)
+ |      Retrieve a node from the graph.
+ |
+ |      Given a node's name the corresponding Node
+ |      instance will be returned.
+ |
+ |      If one or more nodes exist with that name a list of
+ |      Node instances is returned.
+ |      An empty list is returned otherwise.
+ |
+ |  get_node_defaults(self, **attrs)
+ |
+ |  get_node_list(self)
+ |      Get the list of Node instances.
+ |
+ |      This method returns the list of Node instances
+ |      composing the graph.
+ |
+ |  get_nodes(self)
+ |      Get the list of Node instances.
+ |
+ |  get_simplify(self)
+ |      Get whether to simplify or not.
+ |
+ |      Refer to set_simplify for more information.
+ |
+ |  get_strict(self, val)
+ |      Get graph's 'strict' mode (True, False).
+ |
+ |      This option is only valid for top level graphs.
+ |
+ |  get_subgraph(self, name)
+ |      Retrieved a subgraph from the graph.
+ |
+ |      Given a subgraph's name the corresponding
+ |      Subgraph instance will be returned.
+ |
+ |      If one or more subgraphs exist with the same name, a list of
+ |      Subgraph instances is returned.
+ |      An empty list is returned otherwise.
+ |
+ |  get_subgraph_list(self)
+ |      Get the list of Subgraph instances.
+ |
+ |      This method returns the list of Subgraph instances
+ |      in the graph.
+ |
+ |  get_subgraphs(self)
+ |
+ |  get_suppress_disconnected(self, val)
+ |      Get if suppress disconnected is set.
+ |
+ |      Refer to set_suppress_disconnected for more information.
+ |
+ |  get_top_graph_type(self)
+ |
+ |  get_type(self)
+ |      Get the graph's type, 'graph' or 'digraph'.
+ |
+ |  set_edge_defaults(self, **attrs)
+ |
+ |  set_graph_defaults(self, **attrs)
+ |
+ |  set_name(self, graph_name)
+ |      Set the graph's name.
+ |
+ |  set_node_defaults(self, **attrs)
+ |      Define default node attributes.
+ |
+ |      These attributes only apply to nodes added to the graph after
+ |      calling this method.
+ |
+ |  set_parent_graph(self, parent_graph)
+ |
+ |  set_simplify(self, simplify)
+ |      Set whether to simplify or not.
+ |
+ |      If True it will avoid displaying equal edges, i.e.
+ |      only one edge between two nodes. removing the
+ |      duplicated ones.
+ |
+ |  set_strict(self, val)
+ |      Set graph to 'strict' mode.
+ |
+ |      This option is only valid for top level graphs.
+ |
+ |  set_suppress_disconnected(self, val)
+ |      Suppress disconnected nodes in the output graph.
+ |
+ |      This option will skip nodes in
+ |      the graph with no incoming or outgoing
+ |      edges. This option works also
+ |      for subgraphs and has effect only in the
+ |      current graph/subgraph.
+ |
+ |  set_type(self, graph_type)
+ |      Set the graph's type, 'graph' or 'digraph'.
+ |
+ |  to_string(self)
+ |      Return string representation of graph in DOT language.
+ |
+ |      @return: graph and subelements
+ |      @rtype: `str`
+ |
+ |  ----------------------------------------------------------------------
+ |  Methods inherited from Common:
+ |
+ |  __get_attribute__(self, attr)
+ |      Look for default attributes for this node
+ |
+ |  __getstate__(self)
+ |
+ |  __setstate__(self, state)
+ |
+ |  create_attribute_methods(self, obj_attributes)
+ |
+ |  get(self, name)
+ |      Get an attribute value by name.
+ |
+ |      Given an attribute 'name' it will get its value.
+ |      There's always the possibility of using the methods:
+ |
+ |          get_'name'()
+ |
+ |      which are defined for all the existing attributes.
+ |
+ |  get_attributes(self)
+ |
+ |  get_parent_graph(self)
+ |
+ |  get_sequence(self)
+ |
+ |  set(self, name, value)
+ |      Set an attribute value by name.
+ |
+ |      Given an attribute 'name' it will set its value to 'value'.
+ |      There's always the possibility of using the methods:
+ |
+ |          set_'name'(value)
+ |
+ |      which are defined for all the existing attributes.
+ |
+ |  set_sequence(self, seq)
+ |
+ |  ----------------------------------------------------------------------
+ |  Data descriptors inherited from Common:
+ |
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+
+[Finished in 1.609s]

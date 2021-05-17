@@ -1,0 +1,8 @@
+Durable Casing Type M
+3
+PSM
+1
+SFK
+4
+PG
+10

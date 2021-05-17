@@ -1,0 +1,6 @@
+Poly-ethylene
+2
+C
+0.005
+H
+0.01

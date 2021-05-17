@@ -1,0 +1,8 @@
+Basic Rations
+3
+GRN
+0.1
+ALG
+0.1
+VEG
+0.1

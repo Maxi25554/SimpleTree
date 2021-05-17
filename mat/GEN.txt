@@ -1,0 +1,12 @@
+Glass-based STL Engine
+5
+LFP
+4
+GNZ
+4
+NG
+50
+THF
+10
+MFK
+1

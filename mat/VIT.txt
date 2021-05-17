@@ -1,0 +1,12 @@
+Vita Essence
+5
+DW
+0.5
+PIB
+0.2
+CA
+0.05
+I
+0.05
+AMM
+0.05

@@ -1,0 +1,12 @@
+Short-distance Command Bridge
+5
+PSL
+10
+PSM
+20
+TI
+10
+SAR
+5
+RAD
+4

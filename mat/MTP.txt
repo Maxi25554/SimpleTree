@@ -1,0 +1,8 @@
+Meat Tissue Patties
+3
+PPA
+0.25
+NS
+0.25
+HCP
+0.25

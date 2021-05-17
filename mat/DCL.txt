@@ -1,0 +1,8 @@
+Durable Casing Type L
+3
+PSL
+1
+MFK
+1
+PG
+20

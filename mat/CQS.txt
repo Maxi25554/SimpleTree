@@ -1,0 +1,14 @@
+Small Crew Quarters
+6
+PSL
+5
+PSM
+10
+FAL
+5
+LIS
+1
+DEC
+2
+TCU
+1

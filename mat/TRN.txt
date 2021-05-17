@@ -1,0 +1,6 @@
+Advanced Transistor
+2
+AL
+0.1
+SI
+0.1

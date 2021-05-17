@@ -1,0 +1,4 @@
+Helium-3         #Material name
+1                #Number of ingredients
+TS               #Ingredient tag
+1.5              #Amount for 1 product

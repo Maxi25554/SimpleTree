@@ -1,0 +1,20 @@
+Air Scrubber
+9
+HCP
+1
+NS
+1
+H2O
+1
+WAI
+1
+PCB
+1
+SAR
+1
+GV
+1
+FC
+1
+BAC
+1

@@ -1,0 +1,10 @@
+Motherboard
+4
+RAM
+1
+MPC
+1
+PSM
+1
+SFK
+1

@@ -1,0 +1,6 @@
+High-capacity Connectors
+2
+RGO
+0.1
+PE
+30

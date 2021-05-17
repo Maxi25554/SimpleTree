@@ -1,0 +1,10 @@
+Stellar Pale Ale
+4
+GRN
+0.33
+DW
+0.5
+HOP
+0.17
+AMM
+0.17

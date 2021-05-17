@@ -1,0 +1,6 @@
+Shielded Connectors
+2
+BGO
+0.1
+PE
+30
