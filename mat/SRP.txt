@@ -1,0 +1,8 @@
+Specialized Anti-rad Plate
+3
+LST
+0.625
+W
+0.625
+TA
+0.625

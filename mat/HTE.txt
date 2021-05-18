@@ -1,0 +1,12 @@
+Hyperthrust STL Engine
+5
+TS
+1.5
+HNZ
+4
+WAL
+20
+ACS
+1
+MFK
+1
