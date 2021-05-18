@@ -1,0 +1,8 @@
+Advanced High-G Seats
+3
+PG
+100
+AST
+20
+TK
+8

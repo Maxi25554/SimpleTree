@@ -1,0 +1,10 @@
+Einsteinium-infused Gin
+4
+GRN
+0.5
+DW
+0.5
+ES
+0.25
+AMM
+0.25

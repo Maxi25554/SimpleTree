@@ -1,0 +1,14 @@
+Crew Quarters (Large)
+6
+PSL
+20
+PSM
+30
+FET
+20
+LIS
+1
+DEC
+20
+TCU
+1

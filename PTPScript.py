@@ -33,4 +33,4 @@ graph = pydot.Dot('ctree_graph', graph_type='graph', bgcolor='white', suppress_d
 
 ##Edit the variable below
 
-graphing("BR2")
+graphing("RDL")

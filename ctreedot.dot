@@ -1,8 +1,8 @@
 graph ctree_graph {
 bgcolor=white;
-BR2 [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-BR2 -- PSL
-  [color=black, dir=back, fontsize=20, label=10
+RDL [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+RDL -- PSL
+  [color=black, dir=back, fontsize=20, label=30
 ];
 PSL
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
@@ -43,8 +43,8 @@ MG
   [color=black, dir=back, fontsize=20, label="0.17\n"];
 MGS
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-BR2 -- PSM
-  [color=black, dir=back, fontsize=20, label=20
+RDL -- PSM
+  [color=black, dir=back, fontsize=20, label=50
 ];
 PSM
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
@@ -66,99 +66,32 @@ MG
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
 MGS
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-BR2 -- FET
-  [color=black, dir=back, fontsize=20, label=10
+RDL -- SRD
+  [color=black, dir=back, fontsize=20, label=8
 ];
-FET
+SRD
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FET
- -- FE
-  [color=black, dir=back, fontsize=20, label="0.25\n"];
-FE
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FE
- -- FEO
-  [color=black, dir=back, fontsize=20, label=2
-];
-FEO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FE
- -- C
-  [color=black, dir=back, fontsize=20, label="0.5\n"];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FE
- -- O
-  [color=black, dir=back, fontsize=20, label="0.5\n"];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FET
- -- TI
-  [color=black, dir=back, fontsize=20, label="0.75\n"];
-TI
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-TI
- -- TIO
-  [color=black, dir=back, fontsize=20, label=2
-];
-TIO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-TI
- -- C
-  [color=black, dir=back, fontsize=20, label="0.5\n"];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-TI
- -- O
-  [color=black, dir=back, fontsize=20, label="0.5\n"];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-BR2 -- NV2
+SRD
+ -- SAR
   [color=black, dir=back, fontsize=20, label=1
 ];
-NV2
+SAR
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-NV2
- -- BMF
+SAR
+ -- SEN
+  [color=black, dir=back, fontsize=20, label=16
+];
+SEN
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+SEN
+ -- TRN
   [color=black, dir=back, fontsize=20, label=1
 ];
-BMF
+TRN
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-BMF
- -- TPU
-  [color=black, dir=back, fontsize=20, label=1
-];
-TPU
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-TPU
- -- MWF
-  [color=black, dir=back, fontsize=20, label=1
-];
-MWF
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MWF
- -- SI
-  [color=black, dir=back, fontsize=20, label="0.1\n"];
-SI
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SI
- -- SIO
-  [color=black, dir=back, fontsize=20, label=3
-];
-SIO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SI
+TRN
  -- AL
-  [color=black, dir=back, fontsize=20, label=1
-];
+  [color=black, dir=back, fontsize=20, label="0.1\n"];
 AL
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
 AL
@@ -181,883 +114,21 @@ AL
   [color=black, dir=back, fontsize=20, label="0.33\n"];
 O
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MWF
- -- AL
-  [color=black, dir=back, fontsize=20, label="0.1\n"];
-AL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-ALO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-TPU
- -- TRN
-  [color=black, dir=back, fontsize=20, label=1
-];
-TRN
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-TRN
- -- AL
-  [color=black, dir=back, fontsize=20, label="0.1\n"];
-AL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-ALO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
 TRN
  -- SI
   [color=black, dir=back, fontsize=20, label="0.1\n"];
 SI
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SIO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-AL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-ALO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-TPU
- -- CAP
-  [color=black, dir=back, fontsize=20, label=1
-];
-CAP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-CAP
- -- SI
-  [color=black, dir=back, fontsize=20, label="0.07\n"];
 SI
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SIO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-AL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-ALO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-CAP
- -- FE
-  [color=black, dir=back, fontsize=20, label="0.07\n"];
-FE
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FEO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-TPU
- -- HCC
-  [color=black, dir=back, fontsize=20, label=1
-];
-HCC
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCC
- -- RGO
-  [color=black, dir=back, fontsize=20, label="0.1\n"];
-RGO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-RGO
- -- AU
-  [color=black, dir=back, fontsize=20, label="0.8\n"];
-AU
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-AU
- -- C
-  [color=black, dir=back, fontsize=20, label="0.5\n"];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-AU
- -- AUO
-  [color=black, dir=back, fontsize=20, label="1.5\n"];
-AUO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-RGO
- -- CU
-  [color=black, dir=back, fontsize=20, label="0.2\n"];
-CU
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-CU
- -- CUO
-  [color=black, dir=back, fontsize=20, label="1.67\n"];
-CUO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-CU
- -- O
-  [color=black, dir=back, fontsize=20, label="3.33\n"];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-CU
  -- SIO
-  [color=black, dir=back, fontsize=20, label="0.33\n"];
+  [color=black, dir=back, fontsize=20, label=3
+];
 SIO
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCC
- -- PE
-  [color=black, dir=back, fontsize=20, label=30
-];
-PE
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-PE
- -- C
-  [color=black, dir=back, fontsize=20, label="0.005\n"];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-PE
- -- H
-  [color=black, dir=back, fontsize=20, label="0.01\n"];
-H
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-BMF
- -- FAN
-  [color=black, dir=back, fontsize=20, label=1
-];
-FAN
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FAN
+SI
  -- AL
-  [color=black, dir=back, fontsize=20, label="0.125\n"];
-AL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-ALO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FAN
- -- DCS
   [color=black, dir=back, fontsize=20, label=1
 ];
-DCS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-DCS
- -- SFK
-  [color=black, dir=back, fontsize=20, label=2
-];
-SFK
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SFK
- -- FE
-  [color=black, dir=back, fontsize=20, label="0.06\n"];
-FE
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FEO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-DCS
- -- PG
-  [color=black, dir=back, fontsize=20, label=5
-];
-PG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MGS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-DCS
- -- PSS
-  [color=black, dir=back, fontsize=20, label="0.5\n"];
-PSS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-PSS
- -- PG
-  [color=black, dir=back, fontsize=20, label=10
-];
-PG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MGS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FAN
- -- SFK
-  [color=black, dir=back, fontsize=20, label="0.25\n"];
-SFK
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FE
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FEO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-BMF
- -- MB
-  [color=black, dir=back, fontsize=20, label=1
-];
-MB
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MB
- -- RAM
-  [color=black, dir=back, fontsize=20, label=1
-];
-RAM
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-RAM
- -- PSS
-  [color=black, dir=back, fontsize=20, label=1
-];
-PSS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-PG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MGS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-RAM
- -- CAP
-  [color=black, dir=back, fontsize=20, label=1
-];
-CAP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SI
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SIO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-AL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-ALO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FE
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FEO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-RAM
- -- BCO
-  [color=black, dir=back, fontsize=20, label=1
-];
-BCO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-BCO
- -- CU
-  [color=black, dir=back, fontsize=20, label="0.1\n"];
-CU
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-CUO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SIO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-BCO
- -- PE
-  [color=black, dir=back, fontsize=20, label=30
-];
-PE
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MB
- -- MPC
-  [color=black, dir=back, fontsize=20, label=1
-];
-MPC
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MPC
- -- SWF
-  [color=black, dir=back, fontsize=20, label=1
-];
-SWF
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SWF
- -- SI
-  [color=black, dir=back, fontsize=20, label="0.03\n"];
-SI
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SIO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-AL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-ALO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SWF
- -- AL
-  [color=black, dir=back, fontsize=20, label="0.03\n"];
-AL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-ALO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MPC
- -- TRN
-  [color=black, dir=back, fontsize=20, label=1
-];
-TRN
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-AL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-ALO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SI
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SIO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-AL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-ALO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MPC
- -- BCO
-  [color=black, dir=back, fontsize=20, label=1
-];
-BCO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-CU
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-CUO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SIO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-PE
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MB
- -- PSM
-  [color=black, dir=back, fontsize=20, label=1
-];
-PSM
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-PG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MGS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MB
- -- SFK
-  [color=black, dir=back, fontsize=20, label=1
-];
-SFK
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FE
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FEO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-BMF
- -- DCL
-  [color=black, dir=back, fontsize=20, label=1
-];
-DCL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-DCL
- -- PSL
-  [color=black, dir=back, fontsize=20, label=1
-];
-PSL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-PG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MGS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-DCL
- -- MFK
-  [color=black, dir=back, fontsize=20, label=1
-];
-MFK
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MFK
- -- STL
-  [color=black, dir=back, fontsize=20, label="0.125\n"];
-STL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-STL
- -- FE
-  [color=black, dir=back, fontsize=20, label=1
-];
-FE
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FEO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-STL
- -- O
-  [color=black, dir=back, fontsize=20, label=4
-];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-DCL
- -- PG
-  [color=black, dir=back, fontsize=20, label=20
-];
-PG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MGS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-NV2
- -- SNM
-  [color=black, dir=back, fontsize=20, label=1
-];
-SNM
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SNM
- -- WAI
-  [color=black, dir=back, fontsize=20, label=1
-];
-WAI
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-WAI
- -- NN
-  [color=black, dir=back, fontsize=20, label=1
-];
-NN
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-NN
- -- BAI
-  [color=black, dir=back, fontsize=20, label=1
-];
-BAI
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-NN
- -- MLI
-  [color=black, dir=back, fontsize=20, label=1
-];
-MLI
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-WAI
- -- ROM
-  [color=black, dir=back, fontsize=20, label=1
-];
-ROM
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-ROM
- -- PSS
-  [color=black, dir=back, fontsize=20, label=1
-];
-PSS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-PG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MGS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-ROM
- -- BGC
-  [color=black, dir=back, fontsize=20, label=1
-];
-BGC
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-BGC
- -- BGO
-  [color=black, dir=back, fontsize=20, label="0.1\n"];
-BGO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-BGO
- -- AU
-  [color=black, dir=back, fontsize=20, label="0.8\n"];
-AU
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-AUO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-BGO
- -- FE
-  [color=black, dir=back, fontsize=20, label="0.2\n"];
-FE
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FEO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-BGC
- -- PE
-  [color=black, dir=back, fontsize=20, label=30
-];
-PE
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-ROM
- -- SI
-  [color=black, dir=back, fontsize=20, label=1
-];
-SI
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SIO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-AL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-ALO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SNM
- -- DV
-  [color=black, dir=back, fontsize=20, label=1
-];
-DV
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SNM
- -- IMM
-  [color=black, dir=back, fontsize=20, label=1
-];
-IMM
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-IMM
- -- DA
-  [color=black, dir=back, fontsize=20, label=1
-];
-DA
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-DA
- -- SAL
-  [color=black, dir=back, fontsize=20, label=1
-];
-SAL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-DA
- -- LD
-  [color=black, dir=back, fontsize=20, label=1
-];
-LD
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-DA
- -- ROM
-  [color=black, dir=back, fontsize=20, label=1
-];
-ROM
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-PSS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-PG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MGS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-BGC
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-BGO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-AU
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-AUO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FE
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FEO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-PE
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SI
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SIO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-AL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-ALO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-DA
- -- SA
-  [color=black, dir=back, fontsize=20, label=1
-];
-SA
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-IMM
- -- DD
-  [color=black, dir=back, fontsize=20, label=1
-];
-DD
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-DD
- -- NF
-  [color=black, dir=back, fontsize=20, label=1
-];
-NF
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-DD
- -- LD
-  [color=black, dir=back, fontsize=20, label=1
-];
-LD
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-BR2 -- SAR
-  [color=black, dir=back, fontsize=20, label=10
-];
-SAR
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SAR
- -- SEN
-  [color=black, dir=back, fontsize=20, label=16
-];
-SEN
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SEN
- -- TRN
-  [color=black, dir=back, fontsize=20, label=1
-];
-TRN
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-AL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-ALO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SI
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SIO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
 AL
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
 ALO
@@ -1092,6 +163,9 @@ PCB
 ];
 SWF
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+SWF
+ -- SI
+  [color=black, dir=back, fontsize=20, label="0.03\n"];
 SI
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
 SIO
@@ -1108,6 +182,9 @@ H2O
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
 O
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+SWF
+ -- AL
+  [color=black, dir=back, fontsize=20, label="0.03\n"];
 AL
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
 ALO
@@ -1126,22 +203,44 @@ PCB
 ];
 BCO
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+BCO
+ -- CU
+  [color=black, dir=back, fontsize=20, label="0.1\n"];
 CU
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+CU
+ -- CUO
+  [color=black, dir=back, fontsize=20, label="1.67\n"];
 CUO
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+CU
+ -- O
+  [color=black, dir=back, fontsize=20, label="3.33\n"];
 O
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+CU
+ -- SIO
+  [color=black, dir=back, fontsize=20, label="0.33\n"];
 SIO
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+BCO
+ -- PE
+  [color=black, dir=back, fontsize=20, label=30
+];
 PE
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+PE
+ -- C
+  [color=black, dir=back, fontsize=20, label="0.005\n"];
 C
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
 HCP
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
 H2O
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+PE
+ -- H
+  [color=black, dir=back, fontsize=20, label="0.01\n"];
 H
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
 PCB
@@ -1163,16 +262,65 @@ PCB
   [color=black, dir=back, fontsize=20, label="0.2\n"];
 BGO
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+BGO
+ -- AU
+  [color=black, dir=back, fontsize=20, label="0.8\n"];
 AU
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+AU
+ -- C
+  [color=black, dir=back, fontsize=20, label="0.5\n"];
 C
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
 HCP
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
 H2O
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+AU
+ -- AUO
+  [color=black, dir=back, fontsize=20, label="1.5\n"];
 AUO
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+BGO
+ -- FE
+  [color=black, dir=back, fontsize=20, label="0.2\n"];
+FE
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+FE
+ -- FEO
+  [color=black, dir=back, fontsize=20, label=2
+];
+FEO
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+FE
+ -- C
+  [color=black, dir=back, fontsize=20, label="0.5\n"];
+C
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+HCP
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+H2O
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+FE
+ -- O
+  [color=black, dir=back, fontsize=20, label="0.5\n"];
+O
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+SRD
+ -- UTS
+  [color=black, dir=back, fontsize=20, label=2
+];
+UTS
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+UTS
+ -- SFK
+  [color=black, dir=back, fontsize=20, label=2
+];
+SFK
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+SFK
+ -- FE
+  [color=black, dir=back, fontsize=20, label="0.06\n"];
 FE
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
 FEO
@@ -1185,59 +333,10 @@ H2O
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
 O
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-BR2 -- COM
-  [color=black, dir=back, fontsize=20, label=1
+UTS
+ -- FE
+  [color=black, dir=back, fontsize=20, label=6
 ];
-COM
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-COM
- -- BWS
-  [color=black, dir=back, fontsize=20, label=1
-];
-BWS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-BWS
- -- MB
-  [color=black, dir=back, fontsize=20, label=1
-];
-MB
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-RAM
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-PSS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-PG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MGS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-CAP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SI
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SIO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-AL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-ALO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
 FE
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
 FEO
@@ -1250,28 +349,22 @@ H2O
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
 O
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-BCO
+SRD
+ -- DCH
+  [color=black, dir=back, fontsize=20, label=1
+];
+DCH
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-CU
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-CUO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SIO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-PE
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+DCH
+ -- MPC
+  [color=black, dir=back, fontsize=20, label=1
+];
 MPC
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+MPC
+ -- SWF
+  [color=black, dir=back, fontsize=20, label=1
+];
 SWF
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
 SI
@@ -1302,6 +395,10 @@ H2O
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
 O
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+MPC
+ -- TRN
+  [color=black, dir=back, fontsize=20, label=1
+];
 TRN
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
 AL
@@ -1332,6 +429,10 @@ H2O
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
 O
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+MPC
+ -- BCO
+  [color=black, dir=back, fontsize=20, label=1
+];
 BCO
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
 CU
@@ -1352,493 +453,7 @@ H2O
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
 H
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-PSM
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-PG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MGS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SFK
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FE
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FEO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-BWS
- -- DCM
-  [color=black, dir=back, fontsize=20, label=1
-];
-DCM
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-DCM
- -- PSM
-  [color=black, dir=back, fontsize=20, label=1
-];
-PSM
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-PG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MGS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-DCM
- -- SFK
-  [color=black, dir=back, fontsize=20, label=4
-];
-SFK
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FE
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FEO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-DCM
- -- PG
-  [color=black, dir=back, fontsize=20, label=10
-];
-PG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MGS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-BWS
- -- HD
-  [color=black, dir=back, fontsize=20, label=1
-];
-HD
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HD
- -- RG
-  [color=black, dir=back, fontsize=20, label="0.2\n"];
-RG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-RG
- -- GL
-  [color=black, dir=back, fontsize=20, label=1
-];
-GL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-GL
- -- SIO
-  [color=black, dir=back, fontsize=20, label="0.1\n"];
-SIO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-RG
- -- PG
-  [color=black, dir=back, fontsize=20, label="1.5\n"];
-PG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MGS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HD
- -- DCS
-  [color=black, dir=back, fontsize=20, label=1
-];
-DCS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SFK
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FE
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FEO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-PG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MGS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-PSS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-PG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MGS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HD
- -- LDI
-  [color=black, dir=back, fontsize=20, label=1
-];
-LDI
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-LDI
- -- GAL
-  [color=black, dir=back, fontsize=20, label="0.17\n"];
-GAL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-LDI
- -- SI
-  [color=black, dir=back, fontsize=20, label="0.17\n"];
-SI
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SIO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-AL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-ALO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-COM
- -- AAR
-  [color=black, dir=back, fontsize=20, label=1
-];
-AAR
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-AAR
- -- KV
-  [color=black, dir=back, fontsize=20, label=1
-];
-KV
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-KV
- -- PG
-  [color=black, dir=back, fontsize=20, label=75
-];
-PG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MGS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-KV
- -- TCL
-  [color=black, dir=back, fontsize=20, label=5
-];
-TCL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-TCL
- -- CL
-  [color=black, dir=back, fontsize=20, label="0.33\n"];
-CL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-CL
- -- HAL
-  [color=black, dir=back, fontsize=20, label=3
-];
-HAL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-CL
- -- H2O
-  [color=black, dir=back, fontsize=20, label=1
-];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-TCL
- -- O
-  [color=black, dir=back, fontsize=20, label="0.33\n"];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-TCL
- -- H
-  [color=black, dir=back, fontsize=20, label="0.33\n"];
-H
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-AAR
- -- AU
-  [color=black, dir=back, fontsize=20, label=2
-];
-AU
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-AUO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-AAR
- -- PCB
-  [color=black, dir=back, fontsize=20, label=4
-];
-PCB
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SWF
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SI
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SIO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-AL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-ALO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-AL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-ALO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-BCO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-CU
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-CUO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SIO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-PE
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-PE
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-BGO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-AU
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-AUO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FE
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FEO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-AAR
- -- SWF
-  [color=black, dir=back, fontsize=20, label=6
-];
-SWF
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SI
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SIO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-AL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-ALO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-AL
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-ALO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-COM
- -- RAD
-  [color=black, dir=back, fontsize=20, label=4
-];
-RAD
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-RAD
- -- DCS
-  [color=black, dir=back, fontsize=20, label=1
-];
-DCS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-SFK
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FE
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FEO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-PG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MGS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-PSS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-PG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MG
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-MGS
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-RAD
- -- SFK
-  [color=black, dir=back, fontsize=20, label=1
-];
-SFK
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FE
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-FEO
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-C
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-HCP
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-H2O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-O
- [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
-RAD
+DCH
  -- POW
   [color=black, dir=back, fontsize=20, label=1
 ];
@@ -1875,5 +490,200 @@ LI
   [color=black, dir=back, fontsize=20, label=1
 ];
 HAL
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+DCH
+ -- SOL
+  [color=black, dir=back, fontsize=20, label=1
+];
+SOL
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+SOL
+ -- CU
+  [color=black, dir=back, fontsize=20, label="0.17\n"];
+CU
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+CUO
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+O
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+SIO
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+SOL
+ -- SI
+  [color=black, dir=back, fontsize=20, label="0.17\n"];
+SI
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+SIO
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+AL
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+ALO
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+C
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+HCP
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+H2O
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+O
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+SOL
+ -- BCO
+  [color=black, dir=back, fontsize=20, label="0.33\n"];
+BCO
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+CU
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+CUO
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+O
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+SIO
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+PE
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+C
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+HCP
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+H2O
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+H
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+SOL
+ -- BRO
+  [color=black, dir=back, fontsize=20, label="0.08\n"];
+BRO
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+BRO
+ -- AL
+  [color=black, dir=back, fontsize=20, label="0.33\n"];
+AL
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+ALO
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+C
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+HCP
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+H2O
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+O
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+BRO
+ -- CU
+  [color=black, dir=back, fontsize=20, label="0.67\n"];
+CU
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+CUO
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+O
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+SIO
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+DCH
+ -- DRF
+  [color=black, dir=back, fontsize=20, label=1
+];
+DRF
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+DRF
+ -- NFI
+  [color=black, dir=back, fontsize=20, label=50
+];
+NFI
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+NFI
+ -- C
+  [color=black, dir=back, fontsize=20, label="0.008\n"];
+C
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+HCP
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+H2O
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+NFI
+ -- SI
+  [color=black, dir=back, fontsize=20, label="0.0017\n"];
+SI
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+SIO
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+AL
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+ALO
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+C
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+HCP
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+H2O
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+O
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+DRF
+ -- DCS
+  [color=black, dir=back, fontsize=20, label=1
+];
+DCS
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+DCS
+ -- SFK
+  [color=black, dir=back, fontsize=20, label=2
+];
+SFK
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+FE
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+FEO
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+C
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+HCP
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+H2O
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+O
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+DCS
+ -- PG
+  [color=black, dir=back, fontsize=20, label=5
+];
+PG
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+H
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+C
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+HCP
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+H2O
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+MG
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+MGS
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+DCS
+ -- PSS
+  [color=black, dir=back, fontsize=20, label="0.5\n"];
+PSS
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+PSS
+ -- PG
+  [color=black, dir=back, fontsize=20, label=10
+];
+PG
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+H
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+C
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+HCP
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+H2O
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+MG
+ [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
+MGS
  [fillcolor=lightblue, fontname=helvetica, fontsize=20, shape=circle, style=filled];
 }
