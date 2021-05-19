@@ -27,8 +27,9 @@ def lmat(mtag):
 
 def graphing(tags):
     lmat (tags)
-    graph.write_raw('ctreedot.dot')
+#    graph.write_raw('ctreedot.dot')
     graph.set_size("80,80!")
+#    graph.write_pdf('output.pdf')
     graph.write_png('output.png')
 
 graph = pydot.Dot('ctree_graph', graph_type='graph', bgcolor = 'white', \
@@ -36,4 +37,4 @@ suppress_disconnected = False, simplify = True, concentrate = True, splines = 'p
 
 ##Edit the variable below
 
-graphing("CQL")
+graphing("HYPERSHIP")

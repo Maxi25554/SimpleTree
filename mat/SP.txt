@@ -1,0 +1,6 @@
+Solar Panel
+2
+GL
+0.667
+SOL
+2

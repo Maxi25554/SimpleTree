@@ -1,0 +1,8 @@
+Insufoam
+3
+PE
+5
+AR
+0.05
+THF
+0.05
