@@ -1,0 +1,10 @@
+Advanced Whipple Shielding
+4
+TI
+0.25
+CTF
+0.5
+TK
+0.25
+HE
+0.125

@@ -1,0 +1,6 @@
+Small FTL Emitter
+2
+CF
+2
+CBS
+1

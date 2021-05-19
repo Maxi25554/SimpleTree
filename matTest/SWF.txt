@@ -1,0 +1,6 @@
+Small Wafer
+2
+SI
+0.03
+AL
+0.03

@@ -1,0 +1,6 @@
+Drone Frame
+2
+NFI
+50
+DCS
+1

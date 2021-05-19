@@ -1,0 +1,8 @@
+Active Cooling Device
+3
+AL
+0.125
+DCS
+1
+SFK
+0.25

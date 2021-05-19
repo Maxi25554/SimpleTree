@@ -1,0 +1,10 @@
+Medium Capacitor Bank
+4
+LI
+8
+BE
+8
+BGC
+40
+PG
+120

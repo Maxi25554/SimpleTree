@@ -1,0 +1,10 @@
+VitaGel
+4
+VIT
+0.1
+REA
+0.2
+BAC
+0.1
+BL
+0.1

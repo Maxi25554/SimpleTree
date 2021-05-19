@@ -1,0 +1,14 @@
+Radioisotope Generator
+6
+ETC
+4
+BFR
+4
+CF
+6
+ACS
+1
+RCS
+1
+AST
+8

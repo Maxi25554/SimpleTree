@@ -1,0 +1,8 @@
+Nutrient Solution
+3
+H2O
+0.5
+N
+0.5
+LST
+0.25

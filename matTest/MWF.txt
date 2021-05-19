@@ -1,0 +1,6 @@
+Medium Wafer
+2
+SI
+0.1
+AL
+0.1

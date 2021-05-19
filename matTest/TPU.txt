@@ -1,0 +1,10 @@
+Tensor Processing Unit
+4
+MWF
+1
+TRN
+1
+CAP
+1
+HCC
+1

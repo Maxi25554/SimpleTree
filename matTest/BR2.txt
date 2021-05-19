@@ -1,0 +1,14 @@
+Command Bridge MK2
+6
+PSL
+10
+PSM
+20
+FET
+10
+NV2
+1
+SAR
+10
+COM
+1

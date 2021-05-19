@@ -1,0 +1,8 @@
+Non-volatile Memory
+3
+PSS
+1
+BGC
+1
+SI
+1

@@ -1,0 +1,8 @@
+Large Ship-Repair Drone Operations Unit
+3
+PSL
+30
+PSM
+50
+SRD
+8

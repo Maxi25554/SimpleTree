@@ -1,0 +1,4 @@
+Magnesium
+1
+MGS
+0.17

@@ -1,0 +1,6 @@
+Electronic Field Capacitor
+2
+SI
+0.07
+FE
+0.07
