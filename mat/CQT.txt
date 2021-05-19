@@ -1,0 +1,14 @@
+Crew Quarters (Tiny)
+6
+PSL
+2
+PSM
+5
+AL
+5
+DEC
+1
+TCU
+1
+BMF
+1

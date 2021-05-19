@@ -1,0 +1,6 @@
+Lightweight Hull Plate
+2
+AL
+3
+HE
+0.25

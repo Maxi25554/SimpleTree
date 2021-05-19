@@ -1,4 +1,16 @@
-Helium-3
+Minimum-spec Ship
+7
+BRS
 1
-TS
-1.5
+CQT
+1
+GEN
+1
+LHP
+43
+SCB
+1
+SSC
+40
+SSL
+1

@@ -1,0 +1,6 @@
+Small Cargo Bay Kit
+2
+FAL
+50
+MFK
+12
