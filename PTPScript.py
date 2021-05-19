@@ -21,7 +21,7 @@ def lmat(mtag, depth):
         for i in range(mats):
             x = (i*2+2)
             y = content[x]
-            new_edge = pydot.Edge(mtag, y, color='black', label = content[x+1], dir="back", minlen = 2, )
+            new_edge = pydot.Edge(mtag, y, color= colour, label = content[x+1], dir="back", minlen = 2, )
             graph.add_edge(new_edge)
             lmat(y, (depth+1))
 
@@ -30,7 +30,7 @@ def lmat(mtag, depth):
 def graphing(tags):
     lmat (tags, 1)
     graph.write_raw('ctreedot.dot')
-    graph.set_size("100,100!")
+    graph.set_size("80,80!")
     graph.write_png('output.png')
 
 graph = pydot.Dot('ctree_graph', graph_type='graph', bgcolor = 'white', \
