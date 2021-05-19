@@ -1,6 +1,0 @@
-Neural Network
-2
-BAI
-1
-MLI
-1

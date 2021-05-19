@@ -20,7 +20,7 @@ def lmat(mtag):
     for i in range(mats):
         x = (i*2+2)
         y = content[x]
-        new_edge = pydot.Edge(mtag, y, color= colour, label = content[x+1], dir="back", minlen = 2, )
+        new_edge = pydot.Edge(mtag, y, color= colour, label = content[x+1], dir='back', minlen = 2, )
         graph.add_edge(new_edge)
         lmat(y)
 

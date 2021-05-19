@@ -1,6 +1,0 @@
-Silicon
-2
-SIO
-3
-AL
-1

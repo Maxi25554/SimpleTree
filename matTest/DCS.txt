@@ -1,8 +1,0 @@
-Durable Casing S
-3
-SFK
-2
-PG
-5
-PSS
-0.5

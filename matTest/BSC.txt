@@ -1,8 +1,0 @@
-Body Scanner
-3
-DCM
-1
-MFK
-1
-SAR
-1

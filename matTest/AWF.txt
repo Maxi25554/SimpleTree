@@ -1,8 +1,0 @@
-Active Water Filter
-3
-MAG
-0.2
-BAC
-2
-PE
-2

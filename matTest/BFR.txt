@@ -1,6 +1,0 @@
-Basic Fuel Rod
-2
-STL
-1
-AL
-1

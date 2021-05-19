@@ -1,8 +1,0 @@
-Hyper-power FTL Reactor
-3
-FIR
-2
-WAL
-20
-CBL
-1

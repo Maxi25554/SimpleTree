@@ -1,6 +1,0 @@
-Glass Combustion Chamber
-2
-RG
-20
-GV
-1

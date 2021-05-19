@@ -1,6 +1,0 @@
-Alpha-stabilized Tungsten
-2
-W
-0.25
-AL
-0.75

@@ -1,8 +1,0 @@
-Titanium
-3
-TIO
-2
-C
-0.5
-O
-0.5

@@ -1,8 +1,0 @@
-Fluid Piping
-3
-FE
-0.17
-AL
-0.17
-HE
-0.17

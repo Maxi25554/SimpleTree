@@ -1,8 +1,0 @@
-DDT Plant Agent
-3
-C
-0.33
-H
-0.33
-CL
-0.33

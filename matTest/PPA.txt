@@ -1,6 +1,0 @@
-Protein-rich Paste
-2
-BEA
-0.5
-H2O
-0.25

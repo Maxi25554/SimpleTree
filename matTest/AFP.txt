@@ -1,8 +1,0 @@
-Advanced Fuel Pump
-3
-SFK
-1
-PG
-50
-ATP
-10

@@ -1,6 +1,0 @@
-Ferrominium
-2
-AL
-0.5
-FE
-0.5

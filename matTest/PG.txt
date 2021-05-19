@@ -1,8 +1,0 @@
-Polymer Granulate
-3
-H
-0.02
-C
-0.02
-MG
-0.02

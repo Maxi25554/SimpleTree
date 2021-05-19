@@ -1,6 +1,0 @@
-Kevlar Fabric
-2
-PG
-75
-TCL
-5

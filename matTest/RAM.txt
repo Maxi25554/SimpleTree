@@ -1,8 +1,0 @@
-Memory Bank
-3
-PSS
-1
-CAP
-1
-BCO
-1

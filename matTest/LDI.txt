@@ -1,6 +1,0 @@
-Laser Diodes
-2
-GAL
-0.17
-SI
-0.17

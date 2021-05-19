@@ -1,8 +1,0 @@
-Basic Nozzle
-3
-FAL
-10
-MFK
-2
-CHA
-1
