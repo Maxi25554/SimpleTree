@@ -1,6 +1,5 @@
 import pydot
 import random
-import os
 #import networkx as nx
 #import matplotlib.pyplot as plt
 #import matplotlib
@@ -12,32 +11,29 @@ def random_color():
 #    return ('black')
 mdict = {}
 
-def lmat(mtag):
+def lmat(mtag, man):
     file = open("mat/"+mtag.strip()+".txt")
     content = file.readlines()
     mats = int(content[1])
     graph.add_node(pydot.Node(mtag, shape='circle', fillcolor = 'lightblue', style = 'filled', fontname="helvetica"))
     colour = random_color()
-    if mtag in mdict:
-        mdict[mtag] += 1
-    else:
-        mdict[mtag] = 1
     for i in range(mats):
         x = (i*2+2)
         y = content[x]
         new_edge = pydot.Edge(mtag, y, color= colour, label = content[x+1], dir='back', minlen = 2, )
         graph.add_edge(new_edge)
-        num = float(content[x+1])
+        nam = (float(content[x+1])*man)
+        num = round(nam, 6)
         if y in mdict:
             mdict[y] += num
         else:
-            mdict[y] = (num-1)
-        lmat(y)
+            mdict[y] = num
+        lmat(y, num)
 
 
 def graphing(tags):
     open('matlist.txt', 'w').close()
-    lmat (tags)
+    lmat (tags, 1)
     graph.set_size("80,80!")
     graph.write_png('output.png')
     print (mdict)
@@ -54,4 +50,4 @@ suppress_disconnected = False, simplify = True, concentrate = True, splines = 'p
 
 ##Edit the variable below
 
-graphing("ALE")
+graphing("LIS")
