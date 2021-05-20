@@ -1,0 +1,8 @@
+Painkillers
+3
+CA
+0.2
+LI
+0.4
+REA
+1

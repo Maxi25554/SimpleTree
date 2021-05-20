@@ -1,0 +1,12 @@
+Core Module
+5
+LSE
+4
+TRU
+8
+PSL
+12
+LDE
+4
+LTA
+4

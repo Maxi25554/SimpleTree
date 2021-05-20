@@ -1,0 +1,10 @@
+AI-Assisted Lab Coat
+4
+SIL
+0.2
+BLE
+0.1
+HD
+1
+PCB
+1

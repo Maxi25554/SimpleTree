@@ -1,6 +1,6 @@
 Caffeinated Infusion
 2
 CAF
-0.33
+0.33333
 DW
 1

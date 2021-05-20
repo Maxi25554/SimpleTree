@@ -3,6 +3,6 @@ Structural Spacecraft Component
 NFI
 3.33
 AL
-0.33
+0.33333
 HE
-0.17
+0.16666666

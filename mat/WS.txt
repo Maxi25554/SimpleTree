@@ -1,0 +1,6 @@
+Scientific Work Station
+2
+DA
+0.05
+BWS
+0.05

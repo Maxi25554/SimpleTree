@@ -3,4 +3,4 @@ Protein-rich Algae
 H2O
 1.33
 NS
-0.17
+0.16666666

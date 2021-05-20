@@ -1,6 +1,6 @@
 Solar Panel
 2
 GL
-0.667
+0.6666667
 SOL
 2

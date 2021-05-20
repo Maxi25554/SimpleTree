@@ -19,7 +19,8 @@ def lmat(mtag, man):
     for i in range(mats):
         x = (i*2+2)
         y = content[x]
-        new_edge = pydot.Edge(mtag, y, color= colour, label = content[x+1], dir='back', minlen = 2, )
+#        lam = round(float(content[x+1]), 2)
+        new_edge = pydot.Edge(mtag, y, color= colour, label = round(float(content[x+1]), 2), dir='back', minlen = 2, decorate = True)
         graph.add_edge(new_edge)
         num = (float(content[x+1])*man)
         if y in mdict:
@@ -35,7 +36,6 @@ def graphing(tags):
     lmat (tags, 1)
     graph.set_size("80,80!")
     graph.write_png('product\output.png')
-    print (mdict)
     for m, b in mdict.items():
         if m in mnats:
             mlist = str(m.strip() + " = " + str(round(b, 3)))
@@ -53,4 +53,4 @@ suppress_disconnected = False, simplify = True, concentrate = True, splines = 'p
 
 ##Edit the variable below
 
-graphing("HYPERSHIP")
+graphing("JUI")

@@ -1,0 +1,6 @@
+Basic Transparent Aperture
+2
+FE
+1
+PE
+50

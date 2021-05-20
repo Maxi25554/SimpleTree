@@ -1,0 +1,8 @@
+Raw Silk Strains
+3
+H2O
+2
+HCP
+0.125
+NS
+0.125
