@@ -1,0 +1,6 @@
+Wooden Pickaxe
+2
+planks
+3
+stick
+2

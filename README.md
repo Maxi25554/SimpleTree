@@ -11,3 +11,5 @@ Raw utputs are held in (surprisingly) the output folder, while zip files are hel
 Edit the variables near the top of PTPScript.py to change what the script does.
 
 Feel free to add new crafting systems from other games! Just follow TEMPLATE.TXT to create new items, and name the new folder as [game]mat.
+
+Add all natural resources in the crafting tree in a file called [game]nats.txt.

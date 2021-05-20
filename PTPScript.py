@@ -8,15 +8,15 @@ import shutil
 game = "prun"
 #The item code for the item to be fetched
 itemcode = "CQL"
-#whether the connecting lines should be coloured
+#Whether the connecting lines should be coloured
 coloured = True
 #Whether a zip file of the output should be created
-zip = True
+zip = False
 
-#End of variables. Don't touch anything below this point unless you know how to code in python.
+#End of variables. Don't touch anything below this point unless you can code in python.
 
 mdict = {}
-mnat = open("mnats.txt")
+mnat = open(game.strip()+"nats.txt")
 mnats = mnat.readlines()
 
 
