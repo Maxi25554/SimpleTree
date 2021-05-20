@@ -21,9 +21,7 @@ def lmat(mtag, man):
         y = content[x]
         new_edge = pydot.Edge(mtag, y, color= colour, label = content[x+1], dir='back', minlen = 2, )
         graph.add_edge(new_edge)
-        nam = (float(content[x+1])*man)
-        num = round(nam, 6)
-
+        num = (float(content[x+1])*man)
         if y in mdict:
             mdict[y] += num
         else:
@@ -40,11 +38,11 @@ def graphing(tags):
     print (mdict)
     for m, b in mdict.items():
         if m in mnats:
-            mlist = str(m.strip() + " = " + str(b))
+            mlist = str(m.strip() + " = " + str(round(b, 3)))
             f = open("product\matlistnat.txt", "a")
             f.write(mlist + "\n")
             f.close()
-        mlist = str(m.strip() + " = " + str(b))
+        mlist = str(m.strip() + " = " + str(round(b, 3)))
         f = open("product\matlist.txt", "a")
         f.write(mlist + "\n")
         f.close()
@@ -55,4 +53,4 @@ suppress_disconnected = False, simplify = True, concentrate = True, splines = 'p
 
 ##Edit the variable below
 
-graphing("CQL")
+graphing("HYPERSHIP")
