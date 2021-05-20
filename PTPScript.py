@@ -43,7 +43,6 @@ def graphing(tags):
     print (mdict)
     for m, b in mdict.items():
         mlist = str(m.strip() + " = " + str(b))
-        print (mlist)
         f = open("matlist.txt", "a")
         f.write(mlist + "\n")
         f.close()
@@ -55,4 +54,4 @@ suppress_disconnected = False, simplify = True, concentrate = True, splines = 'p
 
 ##Edit the variable below
 
-graphing("HOS")
+graphing("ALE")
