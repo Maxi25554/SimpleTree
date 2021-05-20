@@ -32,20 +32,20 @@ def lmat(mtag, man):
 
 
 def graphing(tags):
-    open('matlist.txt', 'w').close()
-    open('matlistnat.txt', 'w').close()
+    open('product\matlist.txt', 'w').close()
+    open('product\matlistnat.txt', 'w').close()
     lmat (tags, 1)
     graph.set_size("80,80!")
-    graph.write_png('output.png')
+    graph.write_png('product\output.png')
     print (mdict)
     for m, b in mdict.items():
         if m in mnats:
             mlist = str(m.strip() + " = " + str(b))
-            f = open("matlistnat.txt", "a")
+            f = open("product\matlistnat.txt", "a")
             f.write(mlist + "\n")
             f.close()
         mlist = str(m.strip() + " = " + str(b))
-        f = open("matlist.txt", "a")
+        f = open("product\matlist.txt", "a")
         f.write(mlist + "\n")
         f.close()
 
