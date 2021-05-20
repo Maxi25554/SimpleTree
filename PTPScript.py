@@ -19,10 +19,11 @@ def lmat(mtag, man):
     for i in range(mats):
         x = (i*2+2)
         y = content[x]
+        co = float(content[x+1])
 #        lam = round(float(content[x+1]), 2)
-        new_edge = pydot.Edge(mtag, y, color= colour, label = round(float(content[x+1]), 2), dir='back', minlen = 2, decorate = True)
+        new_edge = pydot.Edge(mtag, y, color= colour, label = round(co, 2), dir='back', minlen = 2, decorate = True)
         graph.add_edge(new_edge)
-        num = (float(content[x+1])*man)
+        num = co*man
         if y in mdict:
             mdict[y] += num
         else:
@@ -31,19 +32,19 @@ def lmat(mtag, man):
 
 
 def graphing(tags):
-    open('product\matlist.txt', 'w').close()
-    open('product\matlistnat.txt', 'w').close()
+    open('matlist.txt', 'w').close()
+    open('matlistnat.txt', 'w').close()
     lmat (tags, 1)
     graph.set_size("80,80!")
-    graph.write_png('product\output.png')
+    graph.write_png('output.png')
     for m, b in mdict.items():
         if m in mnats:
             mlist = str(m.strip() + " = " + str(round(b, 3)))
-            f = open("product\matlistnat.txt", "a")
+            f = open("matlistnat.txt", "a")
             f.write(mlist + "\n")
             f.close()
         mlist = str(m.strip() + " = " + str(round(b, 3)))
-        f = open("product\matlist.txt", "a")
+        f = open("matlist.txt", "a")
         f.write(mlist + "\n")
         f.close()
 
@@ -53,4 +54,4 @@ suppress_disconnected = False, simplify = True, concentrate = True, splines = 'p
 
 ##Edit the variable below
 
-graphing("JUI")
+graphing("KOM")
