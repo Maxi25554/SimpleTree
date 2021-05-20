@@ -1,13 +1,13 @@
 # SimpleTree
 
-You need to have pydot installed to run the script.
+This tool generates a tree diagram and complete material lists for crafting systems.
 
-Run PTPScript.py to fetch the tree.
+Run PTPScript.py to generate the crafting tree/materials lists.
 
-Edit the graphing() variable in PTPScript to change the item it fetches.
+You need to have python and pydot installed to run the script.
 
-The item library is in the "mats" folder.
+Outputs are held in (surprisingly) the output folder, while zip files are held (incredibly) in the zips folder.
 
-Generating the tree also generates text files. The first (matlist.txt) shows you every item used to produce the final product and the amount, while the second (matlistnat.txt) shows you every natural resource used.
+Edit the variables near the top of PTPScript.py to change what the script does.
 
-The final graph is output.png
+Feel free to add new crafting systems from other games! Just follow TEMPLATE.TXT to create new items, and name the new folder as [game]mat.
