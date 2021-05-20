@@ -54,4 +54,4 @@ suppress_disconnected = False, simplify = True, concentrate = True, splines = 'p
 
 ##Edit the variable below
 
-graphing("KOM")
+graphing("HYPERSHIP")
