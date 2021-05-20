@@ -7,7 +7,7 @@ import shutil
 #Which game to fetch the tree for
 game = "prun"
 #The item code for the item to be fetched
-itemcode = "MINSHIP"
+itemcode = "CQL"
 #whether the connecting lines should be coloured
 coloured = True
 #Whether a zip file of the output should be created

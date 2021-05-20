@@ -6,7 +6,7 @@ Run PTPScript.py to generate the crafting tree/materials lists.
 
 You need to have python and pydot installed to run the script.
 
-Outputs are held in (surprisingly) the output folder, while zip files are held (incredibly) in the zips folder.
+Raw utputs are held in (surprisingly) the output folder, while zip files are held (incredibly) in the zips folder.
 
 Edit the variables near the top of PTPScript.py to change what the script does.
 
