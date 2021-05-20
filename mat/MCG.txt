@@ -1,0 +1,6 @@
+Mineral Construction Granulate
+2
+LST
+0.08
+SIO
+0.04

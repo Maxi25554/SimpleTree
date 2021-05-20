@@ -1,0 +1,8 @@
+Reinforced Deck Elements
+3
+LDE
+0.5
+EPO
+50
+KV
+1
