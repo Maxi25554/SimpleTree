@@ -1,15 +1,14 @@
 import pydot
 import random
-#import networkx as nx
-#import matplotlib.pyplot as plt
-#import matplotlib
-#import graphviz
-#function to extrapolate full downwards crafting tree from a single material
+
 def random_color():
     col = random.choice(['green', 'red', 'blue'])
     return (col)
 #    return ('black')
 mdict = {}
+
+mnat = open("mnats.txt")
+mnats = mnat.readlines()
 
 def lmat(mtag, man):
     file = open("mat/"+mtag.strip()+".txt")
@@ -24,6 +23,7 @@ def lmat(mtag, man):
         graph.add_edge(new_edge)
         nam = (float(content[x+1])*man)
         num = round(nam, 6)
+
         if y in mdict:
             mdict[y] += num
         else:
@@ -33,16 +33,21 @@ def lmat(mtag, man):
 
 def graphing(tags):
     open('matlist.txt', 'w').close()
+    open('matlistnat.txt', 'w').close()
     lmat (tags, 1)
     graph.set_size("80,80!")
     graph.write_png('output.png')
     print (mdict)
     for m, b in mdict.items():
+        if m in mnats:
+            mlist = str(m.strip() + " = " + str(b))
+            f = open("matlistnat.txt", "a")
+            f.write(mlist + "\n")
+            f.close()
         mlist = str(m.strip() + " = " + str(b))
         f = open("matlist.txt", "a")
         f.write(mlist + "\n")
         f.close()
-
 
 
 graph = pydot.Dot('ctree_graph', graph_type='graph', bgcolor = 'white', \
@@ -50,4 +55,4 @@ suppress_disconnected = False, simplify = True, concentrate = True, splines = 'p
 
 ##Edit the variable below
 
-graphing("LIS")
+graphing("CQL")
