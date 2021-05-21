@@ -7,25 +7,28 @@ import shutil
 #Which game to fetch the tree for
 game = "prun"
 #The item code for the item to be fetched
-itemcode = "CQL"
+itemcode = "HYPERSHIP"
 #Whether the connecting lines should be coloured
 coloured = True
 #Whether a zip file of the output should be created
-zip = False
+zip = True
 
-#End of variables. Don't touch anything below this point unless you can code in python.
+#End of variables. Don't touch anything below this point unless you know what you're doing.
+
 
 mdict = {}
 mnat = open(game.strip()+"nats.txt")
 mnats = mnat.readlines()
 
 
-def random_color():
-    if coloured == True:
-        col = random.choice(['green', 'red', 'blue'])
-    else:
-        col = 'black'
-    return (col)
+if coloured == True:
+    def random_color():
+            col = random.choice(['green', 'red', 'blue'])
+            return (col)
+else:
+    def random_color():
+            col = 'black'
+            return (col)
 
 
 def lmat(mtag, man):
@@ -38,7 +41,7 @@ def lmat(mtag, man):
         x = (i*2+2)
         y = content[x]
         co = float(content[x+1])
-        new_edge = pydot.Edge(mtag, y, color= colour, label = round(co, 2), dir='back', minlen = 2, decorate = True)
+        new_edge = pydot.Edge(mtag, y, color = colour, label = round(co, 2), dir ='back', minlen = 2, decorate = True)
         graph.add_edge(new_edge)
         num = co*man
         if y in mdict:
@@ -54,16 +57,15 @@ def graphing(tags):
     lmat (tags, 1)
     graph.set_size("80,80!")
     graph.write_png('output/output.png')
+    fnat = open("output/matlistnat.txt", "a")
+    f = open("output/matlist.txt", "a")
     for m, b in mdict.items():
-        if m in mnats:
-            mlist = str(m.strip() + " = " + str(round(b, 3)))
-            f = open("output/matlistnat.txt", "a")
-            f.write(mlist + "\n")
-            f.close()
         mlist = str(m.strip() + " = " + str(round(b, 3)))
-        f = open("output/matlist.txt", "a")
+        if m in mnats:
+            fnat.write(mlist + "\n")
         f.write(mlist + "\n")
-        f.close()
+    f.close()
+    fnat.close()
     if zip == True:
         shutil.make_archive("zips/"+tags.strip()+"zip", 'zip', "output")
 

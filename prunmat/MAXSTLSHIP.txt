@@ -1,0 +1,26 @@
+Maxed-out STL Ship
+12
+AHP
+102
+APT
+102
+AWH
+102
+BR2
+1
+CQL
+1
+HTE
+1
+LCB
+1
+LSL
+1
+RDL
+1
+SRP
+102
+SSC
+145
+STS
+1
