@@ -1,0 +1,16 @@
+Starship (almost minspec)
+7
+BRS
+1
+CQT
+1
+GEN
+1
+LHP
+34
+SSC
+28
+SSL
+1
+VSC
+1

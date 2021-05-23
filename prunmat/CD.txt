@@ -1,0 +1,6 @@
+Capacitative Display
+2
+DIS
+1
+BCO
+2

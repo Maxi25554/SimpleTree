@@ -7,17 +7,18 @@ import shutil
 #Which game to fetch the tree for
 game = "prun"
 #The item code for the item to be fetched
-itemcode = "HYPERSHIP"
+itemcode = "MINSHIP"
 #Whether the connecting lines should be coloured
 coloured = True
 #Whether a zip file of the output should be created
 zip = False
 
 #End of variables. Don't touch anything below this point unless you know what you're doing.
+
 nodelist = []
 edgelist = []
-
 mdict = {}
+
 mnat = open(game.strip()+"nats.txt")
 mnats = mnat.readlines()
 
@@ -75,9 +76,6 @@ def graphing(tags):
     fnat.close()
     if zip == True:
         shutil.make_archive("zips/"+tags.strip()+"zip", 'zip', "output")
-
-
-
 
 
 graphing(itemcode)
