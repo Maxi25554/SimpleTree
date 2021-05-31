@@ -1,0 +1,26 @@
+Minimum FTL Ship
+12
+BR1
+1
+CQT
+1
+FFC
+1
+GEN
+1
+LHP
+33
+MFE
+2
+RCT
+1
+SFE
+1
+SFL
+1
+SSC
+26
+SSL
+1
+TCB
+1

@@ -1,0 +1,6 @@
+Hardened Structural Elements
+2
+LSE
+1
+TCS
+0.5

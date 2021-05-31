@@ -1,0 +1,10 @@
+Small Components Assembly
+4
+RBH
+3
+RDE
+6
+RSE
+2
+TRU
+4

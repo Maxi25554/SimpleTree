@@ -7,10 +7,10 @@ CQT
 GEN
 1
 LHP
-43
-SCB
+27
+TCB
 1
 SSC
-40
+20
 SSL
 1
